@@ -1,3 +1,5 @@
+// ART MODEL
+
 const mongoose = require("mongoose");
 
 const artSchema = mongoose.Schema({

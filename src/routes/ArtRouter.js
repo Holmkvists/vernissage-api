@@ -1,3 +1,5 @@
+// ART ROUTES
+
 const express = require("express");
 const ArtModel = require("../models/ArtModel");
 

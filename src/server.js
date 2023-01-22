@@ -33,6 +33,8 @@ server.get("/", (req, res) => {
 server.use("/shop", ShopRouter);
 server.use("/art", ArtRouter);
 
+// LOGIN
+
 server.post("/authorize", (req, res) => {
   if (req.body.password === process.env.ADMIN_PASSWORD) {
     res.status(200).send("Authorized");
